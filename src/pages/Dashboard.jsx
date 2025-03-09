@@ -1,7 +1,7 @@
 function Dashboard() {
   return (
     <div>
-     <h1>Vista home</h1>
+     <h1>Vista dashboard</h1>
     </div>
   );
 }

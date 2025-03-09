@@ -17,22 +17,33 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <Link to={"/"} className="navbar-brand">
-            <img src="logo.jpg" alt="" width={100} />
+            <img src="logo.jpg" alt="" width={100} className="rounded-circle" />
           </Link>
 
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link to={"/about"} className="nav-link active" aria-current="page">
-                Nosotros
+              <Link
+                to={"/estacionamiento"}
+                className="nav-link active"
+                aria-current="page"
+              >
+                Estacionamiento
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
+              <Link to={"/pension"} className="nav-link">
+                Pensión
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
+              <Link to={"/servicio"} className="nav-link">
+                Servicio
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to={"/gasto"} className="nav-link">
+                Gasto
+              </Link>
             </li>
           </ul>
           <form className="d-flex" role="search">

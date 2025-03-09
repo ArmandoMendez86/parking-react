@@ -1,0 +1,23 @@
+.contenedor-ticket {
+  width: 120px;
+  height: 70px;
+  position: relative;
+  background-image: url(ticket.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#folio {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+
+  font-size: 60%;
+}
+#monto {
+  position: absolute;
+  bottom: 22px;
+  right: 30px;
+  color: #fff;
+}
